@@ -90,8 +90,9 @@ button {
 .second {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 400px;
     background-color: white;
+    flex: 1;
 }
 
 h3 {
@@ -107,6 +108,7 @@ h3 {
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
+    max-height: 800px;
 }
 
 .picturesque > * {
@@ -127,3 +129,56 @@ h3 {
     border-color: #3882F6;
     border-radius: 8px;
 }
+
+
+
+
+
+
+.third {
+    display: flex;
+    height: 500px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotainer {
+    display: flex;
+    height: 300px;
+    width: 700px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 700px;
+}
+
+.jid {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 700px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+
+
